@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: #1e1e1e;
 }
 
-/* Background pattern */
+
 .background {
   background-image:url(images/Hero-bg.png);
   background-size: cover;
