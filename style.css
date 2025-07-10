@@ -1,0 +1,76 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5fa;
+  color: #1e1e1e;
+}
+
+/* Background pattern */
+.background {
+  background-image:url(images/Hero-bg.png);
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4A42EC;
+}
+
+.signup-btn {
+  background-color: #4A42EC;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 30px;
+}
+
+.hero span {
+  color: #4A42EC;
+}
+
+.cta-btn {
+  background-color: #4A42EC;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+}
+
+
