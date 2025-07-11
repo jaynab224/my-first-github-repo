@@ -44,18 +44,36 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+.signup-btn:hover{
+
+  background-color: #f31286; /* darker yellow */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 .cta-btn {
   display: inline-block;
+cursor: pointer;
 
   background-color: #4A42EC;
   color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
   padding: 12px 24px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
   margin-top: 40px;
+}
+.cta-btn:hover {
+  background-color: #f31286; /* darker yellow */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 .hero{
   text-align: center;
@@ -75,6 +93,7 @@ body {
     max-width: 1000px;
     margin-left: 15px;
     margin-right: 10px;
+    
 }
 
 .text-section {
@@ -102,11 +121,15 @@ body {
     font-size: 14px;
     font-weight: bold;
     transition: background-color 0.3s;
+    cursor: pointer;
     
 }
 
 .text-section button:hover {
-    background-color: #4a3bcc;
+    
+    background-color: #f31286; 
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .image-section img {
@@ -136,6 +159,9 @@ body stats-container {
   max-width: 800px;
   width: 90%;
   margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  
 }
 
 /* Title */
@@ -358,18 +384,20 @@ body {
 
 .contact-right button {
   margin-top: 25px;
-  background-color: #5d5fef;
+  background-color: #5d69ef;
   color: white;
   font-weight: bold;
   padding: 14px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-right button:hover {
-  background-color: #4a4bdc;
+  background-color: #f31286; 
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Responsive */
@@ -484,36 +512,4 @@ body {
 
 /* buttonsection */
 /* Full screen container to center content */
-body, .container-btn {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #ffffff;
-}
 
-.container-btn {
-  height: 100vh;
-  display: flex;
-  justify-content: center; /* horizontally center */
-  align-items: center;     /* vertically center */
-}
-
-/* Button style */
-.btn-ani {
-  background-color: #f1c40f;
-  color: #222;
-  border: none;
-  padding: 15px 40px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Hover effect */
-.btn-ani:hover {
-  background-color: #f39c12; /* darker yellow */
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
