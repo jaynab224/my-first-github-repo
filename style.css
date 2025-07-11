@@ -82,16 +82,23 @@ cursor: pointer;
 body .container {
     font-family: Arial, sans-serif;
     background-color: #f8faff;
-    margin: 0;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 20;
+    display: flex;
+    justify-content: space-between;
+}
+.sec{
+  background-color: #f8faff;
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   
     max-width: 1000px;
-    margin: auto;
+
+  justify-content: center;
+  margin: 0 auto;
   
 }
 
@@ -137,20 +144,16 @@ body .container {
 }
  /* Reset and background */
 body #stats-container {
-  margin: 0;
-  padding: 0;
-  background-color: #f8f9ff;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color:  #f8faff;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   
-
-  
+    max-width: 800px;
     
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: auto;
   
   
   
@@ -159,20 +162,28 @@ body #stats-container {
 /* Stats box */
 .stats-container {
   background-color: #e8e9ff;
-  padding: 20px 40px;
+  
+  padding: 0 auto ;
+  margin: 0 auto;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  max-width: 800px;
+  max-width: 1000px;
   width: 90%;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  justify-content: center;
+ 
+  justify-content: space-between;
+  
 
+}
   
 }
-
+.use{
+  background-color:#f8faff;
+  
+  
+  
+    
+}
 /* Title */
 .stats-container h2 {
   font-size: 22px;
@@ -213,9 +224,10 @@ body #stats-container {
   /* review setion */
   
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Segoe UI', sans-serif;
   background-color: #f6f8ff;
+
 }
 
 .testimonial-section {
