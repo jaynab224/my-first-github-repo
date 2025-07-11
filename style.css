@@ -90,11 +90,9 @@ body .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
-    margin-left: 15px;
-    margin-right: 10px;
-    
+    max-width: 1000px;
+    margin: auto;
+  
 }
 
 .text-section {
@@ -138,7 +136,7 @@ body .container {
     border-radius: 20px;
 }
  /* Reset and background */
-body stats-container {
+body #stats-container {
   margin: 0;
   padding: 0;
   background-color: #f8f9ff;
@@ -146,7 +144,15 @@ body stats-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
+
+  
+    
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+  
+  
   
 }
 
@@ -163,6 +169,7 @@ body stats-container {
   margin-right: 40px;
   margin-bottom: 20px;
   justify-content: center;
+
   
 }
 
