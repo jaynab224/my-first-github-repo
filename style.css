@@ -262,3 +262,137 @@ body stats-container {
   font-size: 12px;
   color: #777;
 }
+ body focus-section {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+/* Section Container */
+.focus-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Header Text */
+.focus-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+/* Sub Text */
+.focus-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Call to Action Button */
+.cta-button {
+  display: inline-block;
+  background-color: #5d5fef;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Image Styling */
+.image-wrapper img {
+  max-width: 100%;
+  border-radius: 40px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+ /* frompart */
+ body contact-left contact-right {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f8ff;
+}
+
+/* Contact Section Layout */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 10%;
+  align-items: center;
+  background-color: #f6f8ff;
+}
+
+/* Left Side Heading */
+.contact-left h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #111;
+  margin: 0;
+}
+
+/* Right Side Form */
+.contact-right {
+  flex: 2;
+  max-width: 400px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right label {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: none;
+  width: 100%;
+}
+
+.contact-right textarea {
+  height: 100px;
+}
+
+.contact-right button {
+  margin-top: 25px;
+  background-color: #5d5fef;
+  color: white;
+  font-weight: bold;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-right button:hover {
+  background-color: #4a4bdc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-left h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+}
