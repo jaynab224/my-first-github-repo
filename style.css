@@ -57,7 +57,9 @@ body {
   font-size: 14px;
   margin-top: 40px;
 }
-
+.hero{
+  text-align: center;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -71,7 +73,8 @@ body {
     align-items: center;
     justify-content: space-between;
     max-width: 1000px;
-    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
 .text-section {
@@ -86,6 +89,7 @@ body {
 .text-section p {
     color: #6c757d;
     margin-bottom: 20px;
+    
 }
 
 .text-section button {
@@ -98,6 +102,7 @@ body {
     font-size: 14px;
     font-weight: bold;
     transition: background-color 0.3s;
+    
 }
 
 .text-section button:hover {
@@ -118,17 +123,19 @@ body stats-container {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
 }
 
 /* Stats box */
 .stats-container {
   background-color: #e8e9ff;
-  padding: 50px 40px;
+  padding: 20px 40px;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   max-width: 800px;
   width: 90%;
+  margin-left: 40px;
 }
 
 /* Title */
