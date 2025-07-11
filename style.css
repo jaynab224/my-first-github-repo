@@ -182,3 +182,83 @@ body stats-container {
     flex-direction: column;
   }
 }
+  /* review setion */
+  body .testimonials {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9ff;
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+/* Card Container */
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #f5b301;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  margin: 10px 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+/* Reviewer */
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer .name {
+  font-weight: bold;
+  font-size: 13px;
+  color: #222;
+}
+
+.reviewer .date {
+  font-size: 12px;
+  color: #777;
+}
