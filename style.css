@@ -475,3 +475,38 @@ body {
 }
 
 
+/* buttonsection */
+/* Full screen container to center content */
+body, .container-btn {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.container-btn {
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;     /* vertically center */
+}
+
+/* Button style */
+.btn-ani {
+  background-color: #f1c40f;
+  color: #222;
+  border: none;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.btn-ani:hover {
+  background-color: #f39c12; /* darker yellow */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
